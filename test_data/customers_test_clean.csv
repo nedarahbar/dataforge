@@ -1,0 +1,4 @@
+customer_id,name,email,age,city,region,product,quantity,unit_price,total_sales,date
+1,Ali,a@example.com,30,Tehran,North,Laptop,1,1000,1000,2026-01-01
+2,Sara,b@example.com,28,Shiraz,South,Phone,2,400,800,2026-01-02
+3,Reza,c@example.com,35,Isfahan,Central,Tablet,1,300,300,2026-01-03

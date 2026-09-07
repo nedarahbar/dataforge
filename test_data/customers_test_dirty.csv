@@ -1,0 +1,20 @@
+customer_id,name,email,age,city,region,product,quantity,unit_price,total_sales,date
+1,علی رضایی,ali@example.com,28,Tehran,North,Laptop,1,1200.0,1200.0,2026-01-05
+1,علی رضایی,ali@example.com,28,Tehran,North,Laptop,1,1200.0,1200.0,2026-01-05
+2,Sara Mohammadi,sara@example.com,34,Shiraz,South,Phone,2,500.0,1000.0,15/01/2026
+2,Sara Mohammadi,sara@example.com,34,Shiraz,South,Phone,2,500.0,1000.0,15/01/2026
+3,Reza Ahmadi,reza@example.com,41,Isfahan,Central,Tablet,1,350.0,350.0,2026/02/10
+3,Reza Ahmadi,reza@example.com,41,Isfahan,Central,Tablet,1,350.0,350.0,2026/02/10
+4,Neda Hosseini,neda@example.com,29,Mashhad,East,Monitor,3,200.0,600.0,2026-02-20
+5,John Doe,john@example.com,45,Yazd,Central,Keyboard,4,40.0,160.0,01/03/2026
+6,Maryam Karimi,,,Tehran,North,Mouse,2,25.0,50.0,2026-03-05
+7,Hossein Nouri,hossein@example.com,33,,West,Headset,1,80.0,80.0,2026-03-12
+8,Ali Reza,ali2@example.com,27,tehran,North,Laptop,1,1100.0,1100.0,2026-03-18
+9,Sara M,saram@example.com,31,TEHRAN,North,Phone,1,450.0,450.0,2026-03-22
+10,Reza K,rezak@example.com,36, Tehran,North,Tablet,2,300.0,600.0,2026-04-01
+11,Bad Age,badage@example.com,-5,Tabriz,West,Laptop,1,900.0,900.0,2026-04-05
+12,Old Age,oldage@example.com,250,Qom,Central,Phone,1,400.0,400.0,2026-04-08
+13,Bad Email,invalid-email,22,Shiraz,South,Mouse,1,20.0,20.0,2026-04-10
+14,Neg Qty,negqty@example.com,30,Isfahan,Central,Keyboard,-2,35.0,-70.0,2026-04-12
+15,Neg Price,negprice@example.com,26,Mashhad,East,Monitor,1,-100.0,-100.0,2026-04-15
+16,Whale Buyer,whale@example.com,50,Tehran,North,Laptop,1,50000.0,999999.99,2026-04-20

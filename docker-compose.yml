@@ -1,0 +1,19 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////app/data/smart_data.db
+      MAX_FILE_SIZE: "52428800"
+      STORAGE_PATH: /app/storage
+      ALLOWED_EXTENSIONS: csv,xlsx,xls
+      ENVIRONMENT: production
+      LOG_LEVEL: INFO
+    volumes:
+      - ./storage:/app/storage
+      - api-db:/app/data
+    restart: unless-stopped
+
+volumes:
+  api-db:
