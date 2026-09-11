@@ -252,7 +252,7 @@ pip install ".[dev]"   # همراه ابزارهای تست و توسعه
 ## ۸. ساختار پوشه‌ها
 
 ```text
-rahbar/
+dataforge/
 ├── app/
 │   ├── main.py                 # نقطه ورود FastAPI
 │   ├── api/
@@ -620,7 +620,7 @@ cp .env.example .env
 
 ```bash
 # 1) کلون / ورود به پروژه
-cd rahbar
+cd dataforge
 
 # 2) ساخت محیط مجازی
 python -m venv .venv
